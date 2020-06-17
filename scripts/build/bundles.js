@@ -68,6 +68,7 @@ const bundles = [
     source: 'Plugins/SwapAnimation/index',
     path: 'plugins/',
   },
+
   {
     name: 'SortAnimation',
     filename: 'sort-animation',

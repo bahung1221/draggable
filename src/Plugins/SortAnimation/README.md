@@ -9,6 +9,7 @@ It different with (SwapAnimation)[https://github.com/Shopify/draggable/tree/mast
 This plugin is not included by default, so make sure to import it before using.
 
 **NOTE**: Don't use this plugin with (SwapAnimation)[https://github.com/Shopify/draggable/tree/master/src/Plugins/SwapAnimation] plugin to avoid conflict.
+
 ### Import
 
 ```js
@@ -56,6 +57,7 @@ const sortable = new Sortable(document.querySelectorAll('ul'), {
 ```
 
 ### Caveats
+
 - Only works within same container
 - Animations don't stagger
 - Only works with `Sortable`
